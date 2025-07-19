@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>帮助 - 记事本系统</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Microsoft YaHei', sans-serif;
+            padding-top: 20px;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 30px;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        .list-group-item {
+            background-color: transparent;
+            border-left: none;
+            border-right: none;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>帮助中心</h1>
+        <p class="lead">欢迎使用我们的记事本系统！这是一个简单的网站，用于展示基本功能。</p>
+        
+        <div class="card mt-4">
+            <div class="card-header bg-light">
+                <h2 class="mb-0">基本使用方法</h2>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex">
+                        <span class="badge bg-primary rounded-pill me-3">1</span>
+                        <span>浏览主页：直接访问网站首页</span>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <span class="badge bg-primary rounded-pill me-3">2</span>
+                        <span>查看帮助：点击"帮助"链接</span>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <span class="badge bg-primary rounded-pill me-3">3</span>
+                        <span>关于我们：点击"关于"链接</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card mt-4">
+            <div class="card-header bg-light">
+                <h2 class="mb-0">常见问题</h2>
+            </div>
+            <div class="card-body">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                如何使用记事本功能？
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                记事本功能目前正在开发中，敬请期待！
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <p class="mt-4"><a href="index.php" class="btn btn-outline-primary">返回首页</a></p>
+        
+        <div class="footer">
+            <p>记事本系统 &copy; 2025</p>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
